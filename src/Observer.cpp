@@ -4,12 +4,10 @@
 
 #include "Observer.h"
 
-int main()
-{
+int main() {
   WeatherStation m_station;
   PhoneDisplay m_phone(m_station);
-  for(int i = 0; i < 10; ++i)
-  {
+  for (int i = 0; i < 10; ++i) {
     m_station.UpdateTemperature(i);
   }
 

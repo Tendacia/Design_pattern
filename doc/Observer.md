@@ -2,6 +2,8 @@
 
 # 1  定义
 
+Define a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
+定义了一个一对多的对象之间的依赖关系，当一个对象状态发生改变时，其他依赖于它的对象都要自动更新。常被称作依赖，订阅-发布。
 
 # 2 UML结构图
 

@@ -4,6 +4,6 @@ project(DesignPattern)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(DesignPattern
-        src/Observer.cpp)
+        src/Decorator.cpp)
 
 include_directories(include/)

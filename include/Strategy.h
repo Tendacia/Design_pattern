@@ -52,7 +52,6 @@ class Composition
 
  private:
   Compositor* _compositor;
-  Component* _components;
   int _componentCount;
   int _lineWidth;
   int * _lineBreaks;
