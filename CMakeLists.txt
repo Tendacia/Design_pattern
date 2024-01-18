@@ -8,5 +8,8 @@ add_executable(DesignPattern
 
 add_executable(FactoryMethod  src/FactoryMethod.cpp)
 add_executable(AbstractFactory src/AbstractFactory.cpp)
+add_executable(Singleton src/Singleton.cpp)
+add_executable(Command src/Command.cpp)
+
 
 include_directories(include/)
