@@ -12,4 +12,4 @@ int main()
   m_receiver.off();
 
   exit(EXIT_SUCCESS);
-}
+} 
